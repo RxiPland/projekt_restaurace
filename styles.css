@@ -37,6 +37,11 @@ footer {
     align-items: center;
 }
 
+.space_between_container{
+    display: flex;
+    justify-content: space-between;
+}
+
 .nadpis{
     text-align: center;
     font-size: 65px;
