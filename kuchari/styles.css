@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    font-family: 'Lora', serif;
+
+    background-image: url('../images/black_background3.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+header {
+    margin: 0px;
+    font-family: 'Lora', serif;
+}
+
+p, h1 {
+    font-family: 'Lora', serif;
+}
+
+
+
+.header_container{
+    flex-direction: row;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 12px;
+    margin: 0px;
+    min-width: 600px;
+}
+
+.back_button{
+    background-color: rgba(255, 255, 255, 0.205);
+    margin-right: 5%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.6s ease;
+}
+
+.back_button:hover{
+    background-color: #FFD699;
+    transition: 0.8s ease;
+    transform: scale(1.1);
+}
+
+.back_button_text{
+    text-decoration: none;
+    color: white;
+}
+
+.back_button_text:hover{
+    color: black;
+}
+
+
+.center_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.kuchari_container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    margin-top: 0px;
+}
+
+.kuchari_item {
+    transition: 0.6s ease;
+
+    margin: 30px;
+    margin-bottom: 2%;
+
+    padding-top: 40px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    background-color: rgba(255, 255, 255, 0.20);
+    border-radius: 40px;
+}
+
+.kuchari_item:hover{
+    transition: 0.8s ease;
+    transform: scale(1.05);
+}
+
+.kuchari_image{
+    height: 400px;
+    width: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.kuchari_jmeno{
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.kuchari_vlastnost{
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: whitesmoke;
+    font-size: 20px;
+}
