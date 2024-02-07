@@ -2,9 +2,10 @@ body {
     margin: 0px;
     font-family: 'Lora', serif;
 
-    background-image: url('../images/black_background5.jpg');
+    background-image: url('../images/black_background3.jpg');
     background-repeat: repeat;
     background-attachment: fixed;
+    background-position: top;
 }
 
 header {
@@ -81,7 +82,7 @@ p, h1 {
     padding-left: 40px;
     padding-right: 40px;
 
-    background-color: rgba(85, 85, 85, 0.276);
+    background-color: rgba(85, 85, 85, 0.385);
     border-radius: 40px;
 }
 
