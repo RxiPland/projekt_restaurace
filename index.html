@@ -27,7 +27,44 @@
             <a class="nabidka_tlacitko_text" href="./kuchari/">Kuchaři</a>
         </div>
 
+        <div id="showEmailButton" class="nabidka_tlacitko">
+            <a class="nabidka_tlacitko_text" href="javascript:void(0)">Kontakt</a>
+        </div>
 
+
+        <div id="emailPopup" class="popup">
+            <div class="popup-content">
+                <h2 style="color:black;">Chcete nám něco sdělit?</h2>
+                <a id="EmailText" href="javascript:void(0)"></a>
+                <br>
+                <br>
+                <br>
+                <button id="closePopup">Zavřít</button>
+            </div>
+        </div>
+
+        <script>
+            // Email popup
+            showEmailButton.addEventListener("click", function () {
+                emailPopup.classList.add("show");
+            });
+            closePopup.addEventListener("click", function () {
+                emailPopup.classList.remove("show");
+            });
+            window.addEventListener("click", function (event) {
+                if (event.target == emailPopup) {
+                    emailPopup.classList.remove("show");
+                }
+            });
+
+
+            // Decode email address
+            var base64String = "cmVzdGF1cmFjZUByeGlwbGFuZC5ldQ";
+            var decodedString = atob(base64String);
+            var EmailTextElement = document.getElementById('EmailText');
+            EmailTextElement.textContent = decodedString;
+            EmailTextElement.href = "mailto:" + decodedString;
+        </script>
     </div>
         
 </header>
