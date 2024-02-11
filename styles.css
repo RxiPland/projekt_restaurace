@@ -102,6 +102,9 @@ footer {
     margin: 0px;
     margin-bottom: 20px;
     min-width: 600px;
+
+    align-items: center;
+    text-align: center;
 }
 
 .nabidka_tlacitko{

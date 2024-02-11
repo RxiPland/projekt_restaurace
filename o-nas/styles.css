@@ -42,6 +42,9 @@ p, h1 {
     padding-bottom: 12px;
     margin: 0px;
     min-width: 600px;
+
+    align-items: center;
+    text-align: center;
 }
 
 .back_button{
