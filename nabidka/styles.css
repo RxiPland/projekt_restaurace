@@ -7,6 +7,8 @@ body {
     background-attachment: fixed;
 
     color: whitesmoke;
+
+    margin-bottom: 20px;
 }
 
 header {
@@ -57,43 +59,42 @@ p, h1, h2 {
     color: black;
 }
 
+.center_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.menu_row{
+.menu_item_row{
     background-color: rgba(255, 255, 255, 0.133);
     color: whitesmoke;
     border-radius: 25px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    text-align: justify;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1%;
+    margin-bottom: 0px;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .menu_item_name{
-    font-size: 35px;
-    margin-left: 6%;
-    margin-right: 4%;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5%;
 }
 
-.menu_price{
-    font-size: 35px;
-    margin-left: 4%;
-    margin-right: 4%;
-}
-
-.menu_image {
-    margin-left: 10px;
-    width: 250px;
-    height: 200px;
-    object-fit: cover;
-}
-
-.vertical-line {
-    border-left: 1px solid whitesmoke;
-    height: 70px;
+.menu_item_price {
+    font-size: 20px;
+    text-align: right;
+    white-space: nowrap;
+    margin-left: 10%;
+    padding-right: 5%;
 }
