@@ -8,7 +8,7 @@ body {
 
     color: whitesmoke;
 
-    margin-bottom: 20px;
+    margin-bottom: 80px;
 }
 
 header {
@@ -32,7 +32,7 @@ p, h1, h2 {
     min-width: 600px;
 }
 
-.back_button{
+.button_in_header{
     background-color: rgba(255, 255, 255, 0.205);
     margin-right: 5%;
     padding-left: 30px;
@@ -44,18 +44,18 @@ p, h1, h2 {
     transition: 0.6s ease;
 }
 
-.back_button:hover{
+.button_in_header:hover{
     background-color: #FFD699;
     transition: 0.8s ease;
     transform: scale(1.1);
 }
 
-.back_button_text{
+.button_in_header_text{
     text-decoration: none;
     color: white;
 }
 
-.back_button_text:hover{
+.button_in_header_text:hover{
     color: black;
 }
 

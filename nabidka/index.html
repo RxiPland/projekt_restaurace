@@ -15,16 +15,32 @@
 <header>
     <div style="display: flex;" class="header_container">
 
-        <div class="back_button">
-            <a class="back_button_text" href="../">Zpět</a>
+        <div class="button_in_header">
+            <a class="button_in_header_text" href="../">Zpět</a>
+        </div>
+
+        <div class="button_in_header">
+            <a class="button_in_header_text" href="#jidla">Nabídka jídel</a>
+        </div>
+
+        <div class="button_in_header">
+            <a class="button_in_header_text" href="#napoje">Nabídka nápojů</a>
+        </div>
+
+        <div class="button_in_header">
+            <a class="button_in_header_text" href="#vino">Nabídka vín</a>
         </div>
 
     </div>
 </header>
 
 <body>
+    <!-- Nabídka jídel -->
+    <h1 id="jidla" style="color: whitesmoke; font-size: 45px; margin-left: 5%; margin-top: 8%;">Nabídka jídel:</h1>
+
+
     <!-- Předkrmy -->
-    <h2 class="center_container" style="margin-top: 2%; text-decoration: underline; font-size: 35px;">Předkrmy</h2>
+    <h2 id="predkrmy" class="center_container" style="margin-top: 2%; text-decoration: underline; font-size: 35px;">Předkrmy</h2>
     
     <div class="menu_item_row">
         <p class="menu_item_name">Listový salát s nakládanými artyčoky, sušená rajčata, olivy, ančovičky a parmezán</p>
@@ -58,11 +74,154 @@
 
 
     <!-- Polévky -->
-    <h2 class="center_container" style="margin-top: 6%; text-decoration: underline; font-size: 35px;">Polévky</h2>
+    <h2 id="polevky" class="center_container" style="margin-top: 5%; text-decoration: underline; font-size: 35px;">Polévky</h2>
 
     <div class="menu_item_row">
-        <p class="menu_item_name">Carpaccio z daňka, parmezánová majonéza, hnědé hříbky a kadeřávek</p>
-        <p class="menu_item_price">325 Kč</p>
+        <p class="menu_item_name">Dršťková polévka</p>
+        <p class="menu_item_price">90 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Polévka dne</p>
+        <p class="menu_item_price">85 Kč</p>
+    </div>
+
+
+    <!-- Hlavní chody -->
+    <h2 id="hlavni_chody" class="center_container" style="margin-top: 5%; text-decoration: underline; font-size: 35px;">Hlavní chody</h2>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Zelné placky, kvašený listový salát s chilli a křupavá cibulka</p>
+        <p class="menu_item_price">290 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Treska „Skrei“, konfitovaná mrkev, dýně a humrová pěna</p>
+        <p class="menu_item_price">495 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Supréme z perličky plněný vepřovým bokem, ragú z černé čočky, omáčka z pancetty</p>
+        <p class="menu_item_price">375 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Konfitované kachní stehno, celerové zelí na slanině, bramborové noky</p>
+        <p class="menu_item_price">385 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Konfitované kachní stehno, celerové zelí na slanině, bramborové noky</p>
+        <p class="menu_item_price">385 Kč </p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Telecí pavouček s houbovo-koprovou omáčkou, karlovarský knedlík</p>
+        <p class="menu_item_price">345 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Telecí řízek z květové špičky, vídeňský bramborový salát s hořčicí a zakysanou smetanou</p>
+        <p class="menu_item_price">385 Kč</p>
+    </div>
+
+
+    <!-- Dezerty -->
+    <h2 id="dezerty" class="center_container" style="margin-top: 5%; text-decoration: underline; font-size: 35px;">Dezerty</h2>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Tvarohové buchty, rumová omáčka s rozinkami, vanilková zmrzlina</p>
+        <p class="menu_item_price">175 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Karamelové vejce</p>
+        <p class="menu_item_price">160 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Bramborový koláč s povidly a tvarohem, maková zmrzlina</p>
+        <p class="menu_item_price">165 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Sorbet - malina, jahoda 1ks</p>
+        <p class="menu_item_price">55 Kč</p>
+    </div>
+
+
+    <!-- Nápoje -->
+    <h1 id="napoje" style="color: whitesmoke; font-size: 45px; margin-left: 5%; margin-top: 8%;">Nabídka nápojů:</h1>
+
+    <!-- Teplé nápoje -->
+    <h2 id="teple_napoje" class="center_container" style="margin-top: 2%; text-decoration: underline; font-size: 35px;">Teplé nápoje</h2>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Espresso</p>
+        <p class="menu_item_price">57 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Espresso Macchiato</p>
+        <p class="menu_item_price">59 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Espresso Double</p>
+        <p class="menu_item_price">83 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Flat white</p>
+        <p class="menu_item_price">78 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Cappuccino</p>
+        <p class="menu_item_price">78 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">Čaj - černý, ovocný, zelený, bylinkový</p>
+        <p class="menu_item_price">65 Kč</p>
+    </div>
+
+    <!-- Pivo -->
+    <h2 id="pivo" class="center_container" style="margin-top: 5%; text-decoration: underline; font-size: 35px;">Pivo</h2>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">0,25l Prazdroj, světlý ležák</p>
+        <p class="menu_item_price">60 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">0,25l Prazdroj, světlý ležák, „šnyt“</p>
+        <p class="menu_item_price">60 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">0,25l Prazdroj, světlý ležák, „mlíko“</p>
+        <p class="menu_item_price">60 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">0,45l Prazdroj, světlý ležák, „hladinka“</p>
+        <p class="menu_item_price">73 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">0,25l Birell nealkoholický, pomelo-grep</p>
+        <p class="menu_item_price">55 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">0,45l Birell nealkoholický, pomelo-grep</p>
+        <p class="menu_item_price">65 Kč</p>
+    </div>
+
+    <div class="menu_item_row">
+        <p class="menu_item_name">0,33l Birell nealkoholický (lahvové)</p>
+        <p class="menu_item_price">55 Kč</p>
     </div>
 </body>
 </html>
