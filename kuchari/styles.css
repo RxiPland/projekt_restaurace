@@ -34,28 +34,29 @@ p, h1 {
 
 .back_button{
     background-color: rgba(255, 255, 255, 0.205);
-    margin-right: 5%;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: 0.6s ease;
+    transition: 0.4s ease;
+
+    white-space: nowrap;
 }
 
 .back_button:hover{
     background-color: #FFD699;
-    transition: 0.8s ease;
+    transition: 0.6s ease;
     transform: scale(1.1);
 }
 
-.back_button_text{
+.back_button_odkaz{
     text-decoration: none;
     color: white;
 }
 
-.back_button_text:hover{
+.back_button_odkaz:hover{
     color: black;
 }
 

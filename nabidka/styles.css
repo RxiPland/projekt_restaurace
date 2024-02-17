@@ -37,28 +37,29 @@ p, h1, h2 {
 
 .button_in_header{
     background-color: rgba(255, 255, 255, 0.205);
-    margin-right: 5%;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 15px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    transition: 0.6s ease;
+    transition: 0.4s ease;
+
+    white-space: nowrap;
 }
 
 .button_in_header:hover{
     background-color: #FFD699;
-    transition: 0.8s ease;
+    transition: 0.6s ease;
     transform: scale(1.1);
 }
 
-.button_in_header_text{
+.button_in_header_odkaz{
     text-decoration: none;
     color: white;
 }
 
-.button_in_header_text:hover{
+.button_in_header_odkaz:hover{
     color: black;
 }
 
